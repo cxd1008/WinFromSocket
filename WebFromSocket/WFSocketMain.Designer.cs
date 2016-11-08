@@ -1,6 +1,6 @@
 ﻿namespace WebFromSocket
 {
-    partial class SocketMain
+    partial class WFSocketMain
     {
         /// <summary>
         /// Required designer variable.
@@ -39,14 +39,15 @@
             this.btStart.TabIndex = 0;
             this.btStart.Text = "LineStart";
             this.btStart.UseVisualStyleBackColor = true;
+            this.btStart.Click += new System.EventHandler(this.btStart_Click);
             // 
-            // SocketMain
+            // WFSocketMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
             this.Controls.Add(this.btStart);
-            this.Name = "SocketMain";
+            this.Name = "WFSocketMain";
             this.Text = "SocketMain";
             this.ResumeLayout(false);
 

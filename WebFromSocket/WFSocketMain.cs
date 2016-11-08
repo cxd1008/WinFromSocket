@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace WebFromSocket
 {
-    public partial class SocketMain : Form
+    public partial class WFSocketMain : Form
     {
-        public SocketMain()
+        public WFSocketMain()
         {
             InitializeComponent();
+        }
+
+        private void btStart_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
